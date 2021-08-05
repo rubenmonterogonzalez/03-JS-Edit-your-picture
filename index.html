@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simple Photo Editor</title>
+</head>
+  <h2>Edit your picture with<span class='hl'> JS</span></h2>
+
+  <div class="controls">
+    <label for="contrast">Contrast:</label>
+    <input id="contrast" type="range" name="contrast" min="1" max="5" value="1" data-sizing="">
+
+    <label for="graysacel">Grayscale:</label>
+    <input id="grayscale" type="range" name="grayscale" min="0" max="100" value="0" data-sizing="%">
+
+    <label for="base">Filter Color:</label>
+    <input id="base" type="color" name="base" value="#ffffff">
+  </div>
+
+  <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+:root {
+    --base: #ffffff;
+    --contrast: 1;
+    --grayscale: 0%;
+  }
+
+  img {
+    filter: contrast(var(--contrast));
+    background: var(--base);
+    filter: grayscale(var(--grayscale));
+  }
+
+  .hl {
+    color: var(--base);
+  }
+
+/* STYLING */
+
+  body {
+    text-align: center;
+    background: #181818;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+  .controls {
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 100px;
+  }
+
+  img {
+    max-width: 100vh;
+    max-height: 100vh;
+  }
